@@ -1,0 +1,17 @@
+<h2>Parent Component</h2>
+<app-child [loggedIn]="userLoggedIn"></app-child>
+
+<app-hello></app-hello>
+<p #pRef>
+  Start editing to see some magic happen :)
+</p>
+
+<ul>
+  <li *ngFor="let product of products">
+    {{product.name}}
+  </li>
+</ul>
+
+<app-hello name="Angular 6"></app-hello>
+<app-hello name="Angular 7"></app-hello>
+<app-hello name="Angular 8"></app-hello>
